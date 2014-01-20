@@ -4,6 +4,12 @@
 * {
     font-family: 'Open Sans', sans-serif !important;
 }
+
+.jumbotron img {
+    margin-top: 1em; /*eliminate this */
+    width: 100%;
+}
+
 /*
 .landing-bannedr {
     background: url('/images/banner-transparent.png') no-repeat center center fixed;
