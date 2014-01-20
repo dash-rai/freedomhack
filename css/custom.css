@@ -1,0 +1,7 @@
+@import url("/css/bootstrap.min.css");
+@import url("http://fonts.googleapis.com/css?family=Open+Sans");
+
+* {
+    font-family: 'Open Sans', sans-serif !important;
+}
+
