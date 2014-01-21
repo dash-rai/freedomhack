@@ -10,6 +10,29 @@
     width: 100%;
 }
 
+/* TO DO
+   make background blue on hover nav links
+   put in facebook and twitter icons
+   */
+
+.nav li:hover {
+    background-color: #00acd5 !important;
+    color: white !important;
+}
+
+.text-justify {
+    text-align: justify;
+}
+/*
+  @media(max-width:767px){}
+@media(min-width:768px){}
+@media(min-width:992px){}
+@media(min-width:1200px){}
+
+*/
+
+/* http://stackoverflow.com/questions/2896869/jquery-changing-css-on-navigation-when-div-scrolls-into-view/2898109#2898109 */
+
 /*
 .landing-bannedr {
     background: url('/images/banner-transparent.png') no-repeat center center fixed;
