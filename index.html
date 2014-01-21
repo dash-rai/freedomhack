@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="UTF-8">
     <title>Freedom Hack</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
@@ -27,25 +28,18 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-	  <!--          <a class="navbar-brand" href="#"><img src="images/logo-transparent.png" alt="Freedom Hack Logo">Freedom Hack</a> -->
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li class="divider"></li>
-                <li class="dropdown-header">Nav header</li>
-                <li><a href="#">Separated link</a></li>
-                <li><a href="#">One more separated link</a></li>
-              </ul>
-            </li>
+            <li><a href="#top">Home</a></li>
+            <li><a href="#freedomhack">About</a></li>
+            <li><a href="#aaronswartz">Aaron Swartz</a></li>
+	    <li><a href="#guidelines">Guidelines</a></li>
+	    <li><a href="#register">Register</a></li>
+	    <li><a href="#schedule">Schedule</a></li>
+	    <li><a href="#venue">Venue</a></li>
+	    <li><a href="#talks">Talks</a></li>
+	    <li><a href="#contact">Contact Us</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <li><a href="../navbar/">Default</a></li>
@@ -55,35 +49,23 @@
         </div><!--/.nav-collapse -->
       </div>
     </div>
-
-
-    <!-- Home, aka top
-	 contact
-	 venue
-	 register (external)
-	 freedom hack (maybe)
-	 aaron
-	 guidelines
-	 schedule
-	 talks
-      -->
     
     <div class="jumbotron">
       <div class="container text-center">
 	<div class="col-xs-9">
 	  <img src="images/banner-transparent.png" alt="Freedom Hack">
 	</div>
-	<div class="col-xs-3" id="register">
+	<div class="col-xs-3">
 	  <img src="images/dates.png" alt="Feb 8-9 2014">
-	  <a style="font-size:.5em;" href="https://freedom-hack.eventbrite.com/" title="Register">Register!</a>
 	</div>
-
       </div>
+      
+      <a id="freedomhack"></a> 
     </div>
 
-    <div class="container">
+    <div class="container col-md-8 col-md-offset-2 text-justify">
       <div class="row">
-        <div class="col-md-12">
+        <div class="">
           <h2 class="text-center">Freedom Hack</h2>
           <p>To remember Aaron's work and support the courage he showed, InMobi is organizing the Bangalore chapter of Aaron Swartz Memorial Hackathon happening worldwide. 
 	    So, join us in the 24 hours Freedom Hack and set yourself free to code, innovate and learn.</p>
@@ -93,16 +75,15 @@
 	    You can also leverage the public datasets available like <a href="http://data.gov.in/">http://data.gov.in/</a></p>
 
 	  <p>In spirit of making an open world, all the participants are encouraged to open source their hacks.  </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div>
       </div>
 
-      <hr>
+      <hr id="aaronswartz">
       
       <div class="row">
         <div class="col-md-12">
           <h2 class="text-center">Aaron Swartz</h2>
-	  <blockquote> I'm a teenage kid who's interested in improving the world (mostly through law, politics, and technology).<br>
+	  <blockquote><em><strong> I'm a teenage kid who's interested in improving the world (mostly through law, politics, and technology).</strong></em><br>
 	    &mdash; Aaron Swartz</blockquote>
           <p>This was how Aaron described himself in 2004. Aaron Hillel Swartz (November 8, 1986 &ndash; January 11, 2013) was an American computer programmer, writer, political organizer and Internet activist. Swartz was involved in the development of the web feed format RSS, the organization Creative Commons, the website framework web.py and the social news site, Reddit, in which he became a partner after its merger with his company, Infogami. Swartz's later work focused on sociology, civic awareness and activism. He helped launch the Progressive Change Campaign Committee in 2009 to learn more about effective on-line activism. In 2010 he became a research fellow at Harvard University's Safra Research Lab on Institutional Corruption, directed by Lawrence Lessig.He founded the on-line group Demand Progress, known for its campaign against the Stop On-line Piracy Act.</p>
 
@@ -110,10 +91,10 @@
 	</div>
       </div>
 
-      <hr>
+      <hr id="guidelines">
 
       <div class="row">
-	<div class="col-md-12">
+	<div class="col-md-6 col-md-offset-3">
 	  <h2 class="text-center">Guidelines</h2>
 	  <ul>
 	    <li>Participation is open to all.</li>
@@ -122,7 +103,8 @@
 	    <li>Every hack should be demo-able. No power point presentations will be accepted. </li>
 	    <li>Each participant of the team should be present in the InMobi premises for the event.</li>
 	  </ul>
-	  <h4>Registration Guidelines</h4>
+	  <br>
+	  <h4 class="text-center">Registration Guidelines</h4>
 	  <ul>
 	    <li>Registrations are open till 31st Jan, 2014. </li> 
 	    <li>Team size is minimum 2 and maximum 4. </li> 
@@ -131,24 +113,24 @@
 	</div>
       </div>
 
-      <hr>
+      <hr id="register">
 
       <div class="row">
-	<div class="col-md-12">
+	<div class="col-md-12 text-center">
 	  <h2 class="text-center">Registration</h2>
 	  Just fill in the details in the form.<br>
-	  <a class="btn btn-info" href="http://freedom-hack.eventbrite.com/">Register</a><br>
-	  Deadline for registration is 31st Jan, 2014.
+	  <a class="btn btn-info" style="margin: 1em;" href="http://freedom-hack.eventbrite.com/">Register</a><br>
+	  Deadline for registration is 31st Jan, 2014.<br>
 	  We will short-list the teams. You will hear from us by 3rd Feb, 2014.
 	</div>
       </div>
 
-      <hr>
+      <hr id="schedule">
 
       <div class="row">
 	<div class="col-md-12">
 	  <h2 class="text-center">Schedule</h2>
-	  <table class="table">
+	  <table class="table text-center">
 	    <tr>
 	      <td>Event Kick Off</td>
 	      <td>9.00 am Feb 8th, 2014</td>
@@ -165,41 +147,44 @@
 	</div>
       </div>
 
-      <hr>
+      <hr id="venue">
 
       <div class="row">
-	<div class="col-md-12">
-	  <h2 class="text-center">Heading</h2>
-	  <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-	  <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+	<h2 class="text-center">Venue</h2>
+	<br>
+	<div class="col-md-4">
+	  <p><strong>InMobi</strong><br>
+	    7th Floor, Delta Block,<br>
+	    Embassy Tech Square,<br>
+	    Marathalli-Sarjapur Outer Ring Road,<br>
+	    Bangalore
+	  </p>
+	</div>
+	<div class="col-md-8">
+	  <iframe id="location-map" src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d3888.5727895148366!2d77.69457355!3d12.9351566!3m2!1i1024!2i768!4f13.1!3m2!1m1!1s0x0%3A0xb34dc753d2faec7b!5e0!3m2!1sen!2sin!4v1389797118506"></iframe>
+	</div>
+      </div>
+
+      <hr id="talks">
+
+      <div class="row">
+	<div class="text-center">
+	  <h2 class="text-center">Talks</h2>
+	  <p>We will update the talks soon!</p>
+	</div>
+      </div>
+
+      <hr id="contact">
+
+      <div class="row">
+	<div class="col-md-12 text-center">
+	  <h2 class="text-center">Contact Us</h2>
+	  <p>Drop us an email in case of any queries. Or, just drop a Hello at <a href="info@freedomhack.in" title="Email Us">info@freedomhack.in</a></p>
 	</div>
       </div>
 
       <hr>
 
-      <div class="row">
-	<div class="col-md-8 col-md-offset-2">
-	  <h2 class="text-center">Heading</h2>
-	  <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-	  <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-	</div>
-      </div>
-
-      <hr>
-
-      <div class="row">
-	<div class="col-md-12">
-	  <h2 class="text-center">Heading</h2>
-	  <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-	  <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-	</div>
-      </div>
-
-      <hr>
-
-      <footer>
-	<p>&copy; Company 2013</p>
-      </footer>
     </div> <!-- /container -->
 
 

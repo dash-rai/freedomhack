@@ -23,6 +23,16 @@
 .text-justify {
     text-align: justify;
 }
+
+#location-map {
+    min-height: 400px;
+    width: 100%;
+    border: none;
+}
+
+.jumbotron img {
+    width: 100%;
+}
 /*
   @media(max-width:767px){}
 @media(min-width:768px){}
