@@ -12,18 +12,11 @@
 
 .jumbotron img {
     width: 100%;
-    clear: both;
-    margin-top: 2em; 		/*eliminate*/
+    margin-top: 2em;
 }
-
-/* TO DO
-   make background blue on hover nav links
-   put in facebook and twitter icons
-   */
 
 .nav li:hover {
     background-color: #00acd5 !important;
-    color: white !important;
 }
 
 .text-justify {
