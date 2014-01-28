@@ -1,4 +1,4 @@
 FreedomHack
 ===========
 
-Responsive design for freedomhack.in
+Responsive design for the [FreedomHack website](http://www.freedomhack.in/).
